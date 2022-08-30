@@ -1,9 +1,17 @@
-function isPalindrome(word) {
-  // Write your algorithm here
+function isPalindrome(word){
+  let checkedWord=word.toLowerCase();
+  let reversedWord=checkedWord.split('').reverse().join('')
+
+  return (word===reversedWord)?true:false
 }
+
 
 /* 
   Add your pseudocode here
+  change the word first to lowercase
+  reverse the word and decalre it as reveresed word
+  check whether the revered word === to the word arguement
+  return true if so???
 */
 
 /*
